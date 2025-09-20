@@ -5,10 +5,13 @@ The interface is simple and was built only to demonstrate the logic.
 
 How it works:
 
-  Select a reference image.
-  Input the real diameter (in millimeters) for the reference hole to set the scale.
-  Select the image of the part you want to measure.
-  The script detects the most central hole and applies the measurement.
+1 - install the requirements.txt
+2 - run python medidor_furo.py
+3 - Select a reference image.
+4 - Input the real diameter (in millimeters) for the reference hole to set the scale.
+5 - Select the image of the part you want to measure.
+6 - The script detects the most central hole and applies the measurement.
 
 The logic was created to solve a real issue at my company: I needed to inspect part assemblies where the parts were very similar, with only a few millimeters of difference.
 We had a MES system that told me which product was on the line. With a camera, I took a picture, measured, and returned the size of the hole.
+All that write in C#, using OpenCVSharp to manipulate the image and using API integration with the other system, beside the object detection to check the part position, but this is another topic.
