@@ -13,4 +13,4 @@ How it works:
 The logic was created to solve a real issue at my company: I needed to inspect part assemblies where the parts were very similar, with only a few millimeters of difference.
 We had a MES system that told me which product was on the line. With a camera, I took a picture, measured, and returned the size of the hole.
 
-!(./Captura de tela 2025-09-19 223337.jpg)
+!(Captura de tela 2025-09-19 223337.jpg)
