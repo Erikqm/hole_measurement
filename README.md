@@ -22,3 +22,5 @@ The interface is simple and was built only to demonstrate the logic.
 The logic was created to solve a real issue at my company: I needed to inspect part assemblies where the parts were very similar, with only a few millimeters of difference.
 We had a MES system that told me which product was on the line. With a camera, I took a picture, measured, and returned the size of the hole.
 All that write in C#, using OpenCVSharp to manipulate the image and using API integration with the other system, beside the object detection to check the part position, but this is another topic.
+
+![restritor (2)](https://github.com/user-attachments/assets/dfe7697f-4046-4e7f-a840-6da9eeed8a6d)
